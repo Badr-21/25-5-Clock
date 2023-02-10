@@ -1,0 +1,63 @@
+.App {
+   width: 100vw;
+   height: 100vh;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 2rem;
+   background-color: lightblue;
+   color: black;
+}
+
+#container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#lengths {
+   display: flex;
+   column-gap: 3rem;
+   margin-bottom: 2rem;
+}
+
+#break,
+#session {
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 1rem;
+   border: 0.2rem solid gray;
+   border-radius: 0.5rem;
+   font-size: 1.5rem;
+}
+
+#break-change,
+#session-change {
+   display: flex;
+   column-gap: 2rem;
+}
+
+#timer {
+   padding: 2rem;
+   margin-bottom: 2rem;
+   border: 0.2rem solid gray;
+   border-radius: 0.5rem;
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+#time-left {
+   display: flex;
+   justify-content: center;
+}
+
+#start-stop-reset {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 2rem;
+   font-size: 1.5rem;
+}
